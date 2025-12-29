@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" type="image/png" href="../images/My Icon.png" />
+        <link rel="stylesheet" href="../styles/style.css" />
+        <link rel="stylesheet" href="../styles/project-style.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+        <title>Interactive Pricing Project | Lior Rejwan Portfolio</title>
+    </head>
+    <body>
+        <!-- Navigation uses relative paths to return to the main index file -->
+        <nav>
+            <a href="../index.html" id="logo">
+                <svg class="logo-shadow-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <polygon points="50 1 95 25 95 75 50 99 5 75 5 25" fill="var(--green)" />
+                </svg>
+                <svg class="logo-main-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <polygon
+                        points="50 1 95 25 95 75 50 99 5 75 5 25"
+                        stroke="var(--green)"
+                        stroke-width="5"
+                        fill="var(--navy)"
+                    />
+                    <text
+                        x="50"
+                        y="55"
+                        font-size="30"
+                        fill="var(--green)"
+                        text-anchor="middle"
+                        dominant-baseline="middle"
+                    >
+                        LR
+                    </text>
+                </svg>
+            </a>
+            <ul class="nav-links">
+                <li><a href="../index.html">Main</a></li>
+                <li><a href="../index.html#about">About</a></li>
+                <li><a href="../index.html#projects">Projects</a></li>
+                <li><a href="../index.html#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <article>
+                <!-- Section for specific project case study -->
+                <section id="portfolio">
+                    <div class="main-content">
+                        <p class="greeting">Featured Project</p>
+                        <header>
+                            <h1 class="main-title">Interactive Pricing</h1>
+                            <p class="subtitle">Saas Component</p>
+                        </header>
+                        <p class="summary-text">
+                            A modern, interactive pricing table featuring a custom segmented toggle and dynamic price
+                            switching using pure CSS logic.
+                        </p>
+                    </div>
+                </section>
+
+                <!-- Internal page navigation (Table of Contents) using anchor links -->
+                <section class="about-section">
+                    <h2 class="section-heading">Table Of Contents</h2>
+                    <div class="about-content">
+                        <div class="about-text">
+                            <nav class="toc-nav">
+                                <ul class="fancy-list">
+                                    <li><a href="#overview">Overview</a></li>
+                                    <li><a href="#screenshot">Screenshot</a></li>
+                                    <li><a href="#links">Links</a></li>
+                                    <li><a href="#built-with">Built With</a></li>
+                                    <li><a href="#what-i-learned">What I Learned</a></li>
+                                    <li><a href="#continued-development">Continued Development</a></li>
+                                </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="overview" class="about-section">
+                    <h2 class="section-heading">Overview</h2>
+                    <div class="about-content">
+                        <div class="about-text">
+                            <p>
+                                The <strong>Interactive Pricing Component</strong> is a core UI element for any SaaS
+                                (Software as a Service) platform. The goal was to create a clean, high-conversion layout
+                                that allows users to seamlessly switch between monthly and yearly billing.
+                            </p>
+                            <p>
+                                The project focuses on high-end UI/UX principles, including smooth transitions, clear
+                                call-to-action buttons, and a professional "Segmented Control" toggle that provides
+                                immediate visual feedback.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="screenshot" class="about-section">
+                    <h2 class="section-heading">Screenshot</h2>
+                    <div class="about-content">
+                        <div class="project-img-container">
+                            <a href="../images/interactive pricing project - image.png" target="_blank">
+                                <img
+                                    src="../images/interactive pricing project - image.png"
+                                    alt="Pricing Table Desktop Preview"
+                                />
+                            </a>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- External project repositories and live deployment URLs -->
+                <section id="links" class="about-section">
+                    <h2 class="section-heading">Links</h2>
+                    <div class="about-content">
+                        <div class="project-links">
+                            <a
+                                href="https://github.com/rejwanlior/Pricing-Table-Project"
+                                target="_blank"
+                                class="project-btn"
+                                >View Code</a
+                            >
+                            <a
+                                href="https://rejwanlior.github.io/Pricing-Table-Project"
+                                target="_blank"
+                                class="project-btn"
+                                >Live Preview</a
+                            >
+                        </div>
+                    </div>
+                </section>
+
+                <section id="built-with" class="about-section">
+                    <h2 class="section-heading">Built With</h2>
+                    <div class="about-content">
+                        <div class="about-text">
+                            <ul class="fancy-list">
+                                <li>
+                                    <strong>Modern CSS Variables:</strong> Utilized <code>:root</code> properties for a
+                                    maintainable design system and easy theme switching.
+                                </li>
+                                <li>
+                                    <strong>Advanced Selectors:</strong> Implemented the modern
+                                    <code>:has()</code> pseudo-class to handle price state management without
+                                    JavaScript.
+                                </li>
+                                <li>
+                                    <strong>Segmented Control UI:</strong> Built a custom sliding toggle using hidden
+                                    Radio buttons and CSS transitions for a native-app feel.
+                                </li>
+                                <li>
+                                    <strong>Flexbox Layout:</strong> Created a fully responsive grid that adapts from a
+                                    3-column desktop view to a mobile-friendly stack.
+                                </li>
+                                <li>
+                                    <strong>Inter Typeface:</strong> Integrated clean, professional typography for
+                                    better readability of financial data.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="what-i-learned" class="about-section">
+                    <h2 class="section-heading">What I Learned</h2>
+                    <div class="about-content">
+                        <div class="about-text">
+                            <p>
+                                This project pushed my CSS skills to the next level by focusing on logic-driven design:
+                            </p>
+                            <ul class="fancy-list">
+                                <li>
+                                    <strong>State Management via CSS:</strong> Learning how to use radio inputs and the
+                                    <code>~</code> (sibling selector) to trigger complex UI changes.
+                                </li>
+                                <li>
+                                    <strong>Visual Symmetry:</strong> Mastering
+                                    <code>position: absolute</code> techniques to keep the main toggle perfectly
+                                    centered while having asymmetrical labels (like the "Save 20%" badge).
+                                </li>
+                                <li>
+                                    <strong>UX Clarity:</strong> Understanding why a "Segmented Control" is often
+                                    superior to a simple "Switch" for choosing between two distinct pricing models.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="continued-development" class="about-section">
+                    <h2 class="section-heading">Continued Development</h2>
+                    <div class="about-content">
+                        <div class="about-text">
+                            <p>Future enhancements planned for this project include:</p>
+                            <ul class="fancy-list">
+                                <li>
+                                    <strong>Dark Mode Support:</strong> Adding a dark theme variation using CSS variable
+                                    overrides.
+                                </li>
+                                <li>
+                                    <strong>Dynamic Data:</strong> Converting the static cards into a JavaScript-driven
+                                    component to handle dynamic pricing from an API.
+                                </li>
+                                <li>
+                                    <strong>A/B Test Variations:</strong> Creating different layout styles (e.g.,
+                                    horizontal vs vertical cards) to test which converts better.
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </article>
+        </main>
+
+        <footer>Copyright © 2025 by Lior Rejwan</footer>
+        
+        <!-- Sticky back-to-top button -->
+        <a href="#" class="back-to-top">
+            <i class="fas fa-arrow-up"></i>
+        </a>
+    </body>
+</html>

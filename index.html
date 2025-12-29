@@ -1,0 +1,267 @@
+<!doctype html>
+<html>
+    <head>
+        <!-- Document metadata and external resource links -->
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="icon" type="image/png" href="images/My Icon.png" />
+        <link rel="stylesheet" href="styles/style.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+        <title>Lior Rejwan Portfolio | Full Stack Web Developer</title>
+    </head>
+    <body>
+        <!-- Navigation bar component with brand logo and menu links -->
+        <nav>
+            <a href="#" id="logo">
+                <svg class="logo-shadow-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <polygon points="50 1 95 25 95 75 50 99 5 75 5 25" fill="var(--green)" />
+                </svg>
+
+                <svg class="logo-main-svg" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+                    <polygon
+                        points="50 1 95 25 95 75 50 99 5 75 5 25"
+                        stroke="var(--green)"
+                        stroke-width="5"
+                        fill="var(--navy)"
+                    />
+                    <text
+                        x="50"
+                        y="55"
+                        font-size="30"
+                        fill="var(--green)"
+                        text-anchor="middle"
+                        dominant-baseline="middle"
+                    >
+                        LR
+                    </text>
+                </svg>
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="#">Main</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <!-- Main introduction and value proposition -->
+            <section id="portfolio">
+                <div class="main-content">
+                    <p class="greeting">Hi, my name is</p>
+                    <header>
+                        <h1 class="main-title">Lior Rejwan.</h1>
+                        <p class="subtitle">Full-Stack Web Developer.</p>
+                    </header>
+                    <p class="summary-text">
+                        I turn ideas into fast, interactive, and user-focused digital products using modern web
+                        technologies. I enjoy building clean, scalable solutions while paying close attention to
+                        performance, accessibility, and user experience.
+                    </p>
+                </div>
+            </section>
+            
+            <!-- About me section with technology stack list and profile image -->
+            <section id="about" class="about-section">
+                <h2 class="section-heading">About Me</h2>
+
+                <div class="about-content">
+                    <div class="about-text">
+                        <p>Hello! My name is Lior Rejwan and I enjoy creating things that live on the internet.</p>
+                        <p>
+                            I'm a Full Stack Developer with a strong technical orientation and high self-learning
+                            capabilities. Currently focused on building modern, responsive websites, with an emphasis on
+                            clean code structure, accessibility, and user experience. Coming from a professional
+                            background that requires working in dynamic environments, meeting goals, and attention to
+                            detail, bringing analytical thinking and strong problem-solving skills. My areas of interest
+                            include web development, performance optimization, and applying best practices. The values
+                            that guide my work are professionalism, responsibility, continuous learning, teamwork, and a
+                            constant pursuit of high-quality results.
+                        </p>
+                        <p>Here are a few technologies I’ve been working with recently:</p>
+
+                        <ul class="fancy-list">
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>Python</li>
+                            <li>WordPress</li>
+                            <li>Java</li>
+                            <li>C++</li>
+                        </ul>
+                    </div>
+
+                    <div class="about-image">
+                        <div class="image-wrapper">
+                            <img src="images/profile-image.png" alt="Profile Picture" />
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Projects section using article semantic tags for SEO -->
+            <section id="projects">
+                <header>
+                    <h2 class="section-heading">Projects</h2>
+                </header>
+                <div class="featured-projects-list">
+                    <article class="project-card reversed">
+                        <div class="project-content">
+                            <p class="project-overline">Featured Project</p>
+                            <a href="pages/aerox-project.html">
+                                <h3 class="project-title">AERO-X Headset Landing Page</h3>
+                            </a>
+                            <div class="project-description-box">
+                                <p>
+                                    A high-performance landing page for a premium gaming headset, focusing on immersive
+                                    dark-mode UI and seamless user experience.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="project-image-wrapper">
+                            <a href="pages/aerox-project.html" class="image-link">
+                                <img
+                                    src="images/aerox projects-image.png"
+                                    alt="aerox project image"
+                                    class="project-img"
+                                />
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="project-card">
+                        <div class="project-content">
+                            <p class="project-overline">Featured Project</p>
+                            <a href="pages/mercedes-benz-project.html">
+                                <h3 class="project-title">Mercedes-Benz Contact Page</h3>
+                            </a>
+                            <div class="project-description-box">
+                                <p>
+                                    A Mercedes-Benz contact page inspired by the existing contact page on the official
+                                    Mercedes-Benz website.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="project-image-wrapper">
+                            <a href="pages/mercedes-benz-project.html" class="image-link">
+                                <img
+                                    src="images/mercedes project-image.png"
+                                    alt="mercedes benz project image"
+                                    class="project-img"
+                                />
+                            </a>
+                        </div>
+                    </article>
+
+                    <article class="project-card reversed">
+                        <div class="project-content">
+                            <p class="project-overline">Featured Project</p>
+                            <a href="pages/interactive-pricing-project.html">
+                                <h3 class="project-title">Interactive Pricing Saas Component</h3>
+                            </a>
+                            <div class="project-description-box">
+                                <p>
+                                    A modern, interactive pricing table featuring a custom segmented toggle and dynamic
+                                    price switching using pure CSS logic.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="project-image-wrapper">
+                            <a href="pages/interactive-pricing-project.html" class="image-link">
+                                <img
+                                    src="images/interactive pricing project - image.png"
+                                    alt="interactive pricing project image"
+                                    class="project-img"
+                                />
+                            </a>
+                        </div>
+                    </article>
+                </div>
+            </section>
+            <!-- Contact me section -->
+            <section id="contact">
+                <header class="contact-header">
+                    <h2 class="section-heading">Contact Me</h2>
+                </header>
+                <p>I’m always happy to hear from you.</p>
+                <p>Feel free to reach out with any questions, projects, or just to say hello!</p>
+                <p>I will get back to you as soon as possible.</p>
+                <!-- Contact form integrated with Getform.io for backend handling -->
+                <form action="https://getform.io/f/bgdvlpka" method="POST" target="_blank">
+                    <div>
+                        <label for="name">Name:</label>
+                        <input
+                            type="text"
+                            name="name"
+                            id="name"
+                            placeholder="Your name"
+                            title="Please fill your name."
+                            required
+                        />
+                    </div>
+
+                    <div>
+                        <label for="email">Email:</label>
+                        <input
+                            type="email"
+                            name="email"
+                            id="email"
+                            placeholder="Your email"
+                            title="Please fill your email."
+                            required
+                        />
+                    </div>
+
+                    <div>
+                        <label for="phone">Phone Number:</label>
+                        <input
+                            type="tel"
+                            name="phone"
+                            id="phone"
+                            placeholder="Your phone number"
+                            title="Please fill your phone number."
+                            required
+                        />
+                    </div>
+
+                    <div>
+                        <label for="message">Message:</label>
+                        <textarea
+                            name="message"
+                            id="message"
+                            placeholder="Your message"
+                            title="Please fill your message."
+                            required
+                        ></textarea>
+                    </div>
+
+                    <div>
+                        <input type="submit" value="Send" title="Send Message." class="submit-button" />
+                    </div>
+                </form>
+                <!-- Social media link list with FontAwesome icon set -->
+                <div class="socialmedia">
+                    <a href="https://github.com/rejwanlior" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/lior-rejwan/" target="_blank"
+                        ><i class="fab fa-linkedin"></i
+                    ></a>
+                    <a href="https://www.instagram.com/lior_rejwan/" target="_blank"
+                        ><i class="fab fa-instagram"></i
+                    ></a>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            Copyright © 2025 by Lior Rejwan
+        </footer>
+
+        <!-- Sticky back-to-top button -->
+        <a href="#" class="back-to-top">
+            <i class="fas fa-arrow-up"></i>
+        </a>
+    </body>
+</html>
